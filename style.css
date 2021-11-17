@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--light-background-color);
+    background-color: #D06224;
     margin: 0;
 }
 
@@ -51,3 +51,29 @@ select {
     -webkit-appearance: none !important;
     border-radius: 0;
 }
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+
+#root div {
+    background-color: #E9C891;
+    border-radius: 4px;
+    border: 2px solid #AE431E;
+    margin: 4px;
+    animation: shadowAnim 5s infinite;
+}
+
+@keyframes shadowAnim {
+    50% {
+        box-shadow: 3px 4px #eee5d7;
+    }
+}
+
+
+/* házi: minden div dögösen és ugyanúgy nézzen ki, kártyaszerűen
