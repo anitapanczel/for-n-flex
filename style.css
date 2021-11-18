@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #D06224;
+    background-color: #9D5C0D;
     margin: 0;
 }
 
@@ -55,23 +55,23 @@ select {
 #root {
     display: flex;
     flex-wrap: wrap;
-    /* height: 100vh; */
+    height: 100vh;
     /* flex-direction: row; */
     justify-content: center;
     align-items: center;
 }
 
 #root div {
-    background-color: #E9C891;
+    background-color: #F7D08A;
     border-radius: 4px;
-    border: 2px solid #AE431E;
-    margin: 4px;
+    padding: 4px;
+    margin: 6px;
     animation: shadowAnim 5s infinite;
 }
 
 @keyframes shadowAnim {
     50% {
-        box-shadow: 3px 4px #eee5d7;
+        box-shadow: 3px 4px #FAFAFA;
     }
 }
 
